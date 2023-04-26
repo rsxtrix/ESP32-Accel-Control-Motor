@@ -8,3 +8,5 @@ In this version, I think I'd like to average input from the accelerometer to smo
 Additionally, I'd like to keep track of motor position and change motor position dynamically using mathematic operations.
 
 I don't want to get too far in the weeds with this version, since I'll be working on a separate 4-motor version with multiple accelerometers and inputs. A potential use case for this code could be robotics, such as robotic arms or human assistance devices.
+
+The project makes use of my [TMC2208](https://github.com/rsxtrix/ESP32-TMC2208-MicroPython-Driver "TMC2208 ESP32 Driver") and [ADXL-345](https://github.com/rsxtrix/ESP32-ADXL345-MicroPython-Driver "ADXL-345 ESP32 Driver") drivers.
